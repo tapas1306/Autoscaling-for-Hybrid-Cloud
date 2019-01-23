@@ -1,0 +1,35 @@
+{
+    "TName": "T1", 
+    "Details": [
+        {
+            "num_vms": "1", 
+            "scaleuptime": "1544258941", 
+            "max_st": "10", 
+            "Subnet": "3.3.3.0", 
+            "num_scaled_vms": "0", 
+            "Mask": "24", 
+            "min_st": "5", 
+            "status": "idle", 
+            "VMList": [
+                {
+                    "Hypervisor": "192.168.50.80", 
+                    "List": [
+                        {
+                            "ScaledUpOrder": "0", 
+                            "ScaledUpResource": "no", 
+                            "Name": "T1-N1V1", 
+                            "mgmtIP": "192.168.100.159", 
+                            "IP": "3.3.3.3"
+                        } 
+                    ]
+                }, 
+                {
+                    "Hypervisor": "192.168.50.66", 
+                    "List": []
+                }
+            ], 
+            "cooldownperiod": "0", 
+            "SubnetName": "T1-N1"
+        }
+    ]
+}

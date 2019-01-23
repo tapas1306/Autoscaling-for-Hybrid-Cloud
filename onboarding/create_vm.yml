@@ -1,0 +1,12 @@
+- hosts: "{{ host }}"
+  gather_facts: no
+  tasks:                # Defining tasks for the playbook
+    - name: Create the vm '{{ vmname }}'
+      virt:
+        name: "{{ vmname }}"
+        command: define
+        xml: '{{ lookup("template", "{{ xmlname }}") }}'
+    - name: Start the vm '{{ vmname }}'
+      virt:
+        name: "{{ vmname }}"
+        state: running

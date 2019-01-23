@@ -1,0 +1,21 @@
+- hosts: "{{ host }}"
+  gather_facts: no
+  tasks:                # Defining tasks for the playbook
+    - name: Create the bridge
+      shell: brctl addbr '{{ name }}'-br
+    - name: Bring up the bridge
+      shell: ip link set '{{ name }}'-br up
+    - name: Define the network '{{ name }}'
+      virt_net:
+        command: define
+        name: '{{ name }}'
+        xml: '{{ lookup("template", "{{ xmlname }}"  ) }}'
+    - name: Start the Network
+      virt_net:
+        command: create
+        name: '{{ name }}'
+        state: active
+    - name: Create the VXLAN interface
+      shell: ip link add name {{ name }}-vx-{{ count }} type vxlan id {{ vxcount }} dev {{ name }}-br remote {{ mgmthypip }} dstport 4789
+    - name: Bring up the VXLAN interface
+      shell: ip link set {{ name }}-vx-{{ count }} up

@@ -1,0 +1,11 @@
+<network>
+  <name>C-T100</name>
+  <forward mode='nat'/>
+  <bridge name='C-T100-br'/>
+  <ip address='192.100.0.1' netmask='255.255.0.0'>
+    <dhcp>
+      <range start='192.100.0.2' end='192.100.255.254'/>
+    </dhcp>
+  </ip>
+</network>
+

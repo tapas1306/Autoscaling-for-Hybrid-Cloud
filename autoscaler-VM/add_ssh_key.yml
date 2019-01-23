@@ -1,0 +1,7 @@
+- hosts: "{{ host }}"
+  gather_facts: no
+  tasks:                # Defining tasks for the playbook
+    - name: Copying ssh file
+      copy:
+        src: "{{ sshpubkeyfile }}"
+        dest: "/root/.ssh/authorized_keys"

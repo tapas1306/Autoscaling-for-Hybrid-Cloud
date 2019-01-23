@@ -1,0 +1,6 @@
+<network>
+  <name>C-T1</name>
+  <forward mode='bridge'/>
+  <bridge name='C-T1-br'/>
+</network>
+

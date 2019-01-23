@@ -1,0 +1,23 @@
+{
+    "TName": "T101",
+    "Details": [
+        {
+            "num_vms": "2",
+            "max_st": "10",
+            "Subnet": "104.104.104.0",
+            "Mask": "24",
+            "min_st": "5",
+            "cooldownperiod": "120",
+            "SubnetName": "N1"
+        },
+        {
+            "num_vms": "0",
+            "max_st": "10",
+            "Subnet": "105.105.105.0",
+            "Mask": "24",
+            "min_st": "5",
+            "cooldownperiod": "3600",
+            "SubnetName": "N2"
+        }
+    ]
+}

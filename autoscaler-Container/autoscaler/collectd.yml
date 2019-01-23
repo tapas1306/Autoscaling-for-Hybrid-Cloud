@@ -1,0 +1,17 @@
+--- #Playbook to add wireshark and iperf applications
+- hosts: "{{ vmname }}"
+#  gather_facts: no
+  tasks:                # Defining tasks for the playbook
+    - name: Check for package
+      yum:
+        name: collectd
+        state: present
+    - name: Copy file to a remote server
+      copy:
+        src: "collectd/{{ vmname }}-collectd.conf"
+        dest: "/etc/collectd.conf"
+    - name: reStart service collectd
+      service:
+        name: collectd
+        state: restarted
+

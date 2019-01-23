@@ -1,0 +1,21 @@
+[all:vars]
+ansible_connection=ssh
+ansible_user=root
+ansible_ssh_pass=kushaltapas
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+[root@192.168.50.80]
+192.168.50.80
+
+[root@192.168.50.66]
+192.168.50.66
+
+[root@Requested]
+Requested
+
+[root@Guest]
+Guest
+
+[root@192.100.233.195]
+192.100.233.195
+
