@@ -1,4 +1,3 @@
-
 ################################################################################################
 
 All the scripts should run on the controller Host/VM. These scripts will be copied to the controller Host/VM once the tenant onboarding is done and Controller is created with other network infrastructure.

@@ -1,0 +1,23 @@
+{
+    "TName": "T1", 
+    "Details": [
+        {
+            "num_cons": "2", 
+            "max_st": "10", 
+            "Subnet": "3.3.3.0", 
+            "Mask": "24", 
+            "min_st": "5", 
+            "cooldownperiod": "120", 
+            "SubnetName": "N1"
+        },
+        {
+            "num_cons": "0", 
+            "max_st": "10", 
+            "Subnet": "4.4.4.0", 
+            "Mask": "24", 
+            "min_st": "5", 
+            "cooldownperiod": "3600", 
+            "SubnetName": "N2"
+        }
+    ]
+}

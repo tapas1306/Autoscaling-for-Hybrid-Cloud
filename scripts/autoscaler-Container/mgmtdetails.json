@@ -1,0 +1,19 @@
+{
+  "ControllerIP": "192.168.100.88",
+  "ControllerNetworkName": "C-T2",
+  "vethIP": "2.2.2.1",
+  "ConPrefix": "C",
+  "mgmtHypervisor": "192.168.50.80",
+  "mgmtHypervisorUser": "root",
+  "HypervisorList": 
+  [
+    {
+      "IP": "192.168.50.80",
+      "User": "root"
+    },
+    {
+      "IP": "192.168.50.66",
+      "User": "root"
+    }
+  ]
+}

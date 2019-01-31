@@ -1,0 +1,23 @@
+{
+  "ControllerIP": "192.100.233.195",
+  "ControllerNetworkName": "C-T100",
+  "vethIP": "100.100.100.1",
+  "VMPrefix": "V",
+  "mgmtHypervisor": "192.168.50.80",
+  "mgmtHypervisorUser": "root",
+  "ControllerImgPath": "/home/ece792/M3Code/VM/onboarding",
+  "HypervisorList": [
+    {
+      "IP": "192.168.50.80",
+      "User": "root",
+      "Password": "kushaltapas",
+      "Count": "101"
+    },
+    {
+      "IP": "192.168.50.66",
+      "User": "root",
+      "Password": "EcE792net!",
+      "Count": "102"
+    }
+  ]
+}

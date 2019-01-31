@@ -1,0 +1,4 @@
+Wed Dec 12 02:58:56 EST 2018: 192.168.50.80: SCALED_UP: New resource with IP 13.13.13.3 and MGMT IP 192.1.201.198 available at 192.168.50.80
+Wed Dec 12 02:59:38 EST 2018: 192.168.50.80: SCALED_UP: New resource with IP 13.13.13.4 and MGMT IP 192.1.135.12 available at 192.168.50.80
+Wed Dec 12 03:04:19 EST 2018: 192.168.50.80: SCALED_UP: New resource with IP 13.13.13.5 and MGMT IP 192.1.206.75 available at 192.168.50.80
+Wed Dec 12 03:05:57 EST 2018: 192.168.50.80: SCALING DOWN: Resource with IP 13.13.13.5 being removed from 192.168.50.80

@@ -1,0 +1,67 @@
+{
+    "TName": "T2", 
+    "Details": [
+        {
+            "num_scaled_cons": "4", 
+            "scaleuptime": "1544912875", 
+            "ConList": [
+                {
+                    "Hypervisor": "192.168.50.80", 
+                    "List": [
+                        {
+                            "ScaledUpOrder": "0", 
+                            "ScaledUpResource": "no", 
+                            "Name": "T2N1C1", 
+                            "mgmtIP": "192.1.174.217", 
+                            "IP": "13.13.13.6"
+                        }, 
+                        {
+                            "ScaledUpResource": "yes", 
+                            "IP": "13.13.13.3", 
+                            "Name": "T2N1C2", 
+                            "ScaledUpOrder": "1", 
+                            "mgmtIP": "192.1.201.198"
+                        }, 
+                        {
+                            "mgmtIP": "192.1.54.61", 
+                            "ScaledUpResource": "yes", 
+                            "Name": "T2N1C4", 
+                            "ScaledUpOrder": "3", 
+                            "IP": "13.13.13.5"
+                        }, 
+                        {
+                            "mgmtIP": "192.1.135.12", 
+                            "ScaledUpResource": "yes", 
+                            "Name": "T2N1C3", 
+                            "ScaledUpOrder": "2", 
+                            "IP": "13.13.13.4"
+                        }, 
+                        {
+                            "ScaledUpOrder": "4", 
+                            "IP": "13.13.13.7", 
+                            "Name": "T2N1C5", 
+                            "mgmtIP": "192.1.190.80", 
+                            "ScaledUpResource": "yes"
+                        }
+                    ]
+                }, 
+                {
+                    "Hypervisor": "192.168.50.66", 
+                    "List": []
+                }
+            ], 
+            "Subnet": "13.13.13.0", 
+            "Mask": "24", 
+            "image_name": "trmallic/myubuntu:version1", 
+            "min_hyp_load": "1", 
+            "status": "scaledup", 
+            "cooldownperiod": "0", 
+            "NetName": "T2N1", 
+            "SubnetName": "T2-N1", 
+            "max_load": "30", 
+            "max_hyp_load": "3", 
+            "num_cons": "5", 
+            "min_load": "10"
+        }
+    ]
+}
